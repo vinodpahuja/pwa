@@ -82,7 +82,7 @@ const app = (() => {
     });
   }
 
-  const applicationServerPublicKey = 'YOUR_VAPID_PUBLIC_KEY';
+  const applicationServerPublicKey = 'BB3MjzZ8HCAq7n1OyR0q6a_Kl8nAckxoInI1obaheO-yR9Tnnguws58F96YUT6GQg-ZLIY1XTif_mJQJ_DYNoek';
 
   function subscribeUser() {
     const applicationServerKey = urlB64ToUint8Array(applicationServerPublicKey);
